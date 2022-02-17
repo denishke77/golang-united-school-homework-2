@@ -15,13 +15,13 @@ import (
 // CalcSquare(10.0, SidesCircle)
 type MyTypeSides int
 
-func CalcSquare(sideLen float64, sidesNum MyTypeSides) float64 {
+const (
+	SidesTriangle = 3
+	SidesSquare   = 4
+	SidesCircle   = 0
+)
 
-	const (
-		SidesTriangle = 3
-		SidesSquare   = 4
-		SidesCircle   = 0
-	)
+func CalcSquare(sideLen float64, sidesNum MyTypeSides) float64 {
 
 	var result float64
 
