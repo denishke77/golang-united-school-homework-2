@@ -37,7 +37,7 @@ func CalcSquare(sideLen float64, sidesNum MyTypeSides) float64 {
 
 	switch sidesNum {
 	case SidesTriangle:
-		result = sideLen * lala
+		result = sideLen * sideLen * lala
 	case SidesSquare:
 		result = sideLen * sideLen
 	case SidesCircle:
