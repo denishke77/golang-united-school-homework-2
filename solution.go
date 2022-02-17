@@ -24,7 +24,7 @@ const (
 func CalcSquare(sideLen float64, sidesNum MyTypeSides) float64 {
 
 	var result float64
-
+	var lala float64 = 0.43301270189
 	/*if sidesNum == SidesTriangle {
 
 		result = float64(sideLen) * 3
@@ -37,7 +37,7 @@ func CalcSquare(sideLen float64, sidesNum MyTypeSides) float64 {
 
 	switch sidesNum {
 	case SidesTriangle:
-		result = sideLen * 3
+		result = sideLen * lala
 	case SidesSquare:
 		result = sideLen * sideLen
 	case SidesCircle:
